@@ -15,7 +15,9 @@ const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          Empowering Brunei's Businesses with Smart Automation
+          Stop Losing Leads & Wasting Hours on Manual Work
+FlowEdge AI helps Brunei SMEs automate customer follow-ups, 
+bookings, and support — so you can focus on growing your business.
         </motion.h1>
 
         {/* Description */}
@@ -36,7 +38,7 @@ const Hero = () => {
           transition={{ duration: 0.8, delay: 0.4 }}
           onClick={() => setIsModalOpen(true)} // Open modal on click
         >
-          Get Started
+          Free 30-Min Audit
         </motion.button>
       </div>
 

@@ -34,7 +34,7 @@ const Contact = () => {
           {/* Calendly Widget */}
           <div
             className="calendly-inline-widget mb-8"
-            data-url="https://calendly.com/brunexai-bn/urut-bayar-labih"
+            data-url="https://calendly.com/azrihanizai/discovery-call"
             style={{ minWidth: '320px', height: '1100px' }}
           ></div>
         </motion.div>

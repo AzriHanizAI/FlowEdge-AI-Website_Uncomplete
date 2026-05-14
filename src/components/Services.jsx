@@ -24,14 +24,19 @@ const services = [
     icon: '📧'
   },
   {
-    title: 'Social Media Automation',
+    title: 'Social Media Outreach Automation',
     description: 'Automated DMs for Instagram and X (Twitter) to boost lead generation and engagement for local brands.',
     icon: '💬'
   },
   {
-    title: 'Business Workshops',
-    description: 'Educational workshops for SMEs and government clients on AI benefits and basic automation implementation.',
-    icon: '📚'
+    title: 'AI Web Development',
+    description: 'Get fully coded website (Fullstack).',
+    icon: '🌐💻'
+  },
+  {
+    title: 'AI Receptionist (Voice Agent)',
+    description: 'Answers calls, books appointments.',
+    icon: '📞'
   }
 ];
 

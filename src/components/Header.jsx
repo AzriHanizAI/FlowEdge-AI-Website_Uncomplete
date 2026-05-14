@@ -24,7 +24,23 @@ const Header = () => {
     >
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
-          <div className="text-2xl font-bold text-blue-600">BruNex AI</div>
+          {/* Logo and Brand Text */}
+          <div className="flex items-center space-x-4">
+            <img
+  src="/images/cropped_logo.png"
+  alt="FlowEdge Logo"
+  className="h-16 w-auto object-contain"
+/>
+
+            <span className="text-4xl font-bold">
+              <span style={{ color: '#001F54' }}>Flow</span>
+              <span style={{ color: '#FF6600' }}>Edge</span>{' '}
+              <span style={{ color: '#001F54' }}>A</span>
+              <span style={{ color: '#FF6600' }}>I</span>
+            </span>
+          </div>
+
+          {/* Nav */}
           <nav className="hidden md:flex space-x-8">
             <Link
               to="services"

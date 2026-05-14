@@ -7,11 +7,10 @@ export default {
   theme: {
     extend: {
       colors: {
-        blue: {
-          50: '#f0f9ff',
-          600: '#2563eb',
-          700: '#1d4ed8',
-        },
+        'deep-navy': '#0B1D36',
+        'electric-blue': '#0077FF',
+        'light-gray': '#E5E5E5',
+        'teal': '#00BFA6',
       },
       fontFamily: {
         'montserrat': ['Montserrat', 'sans-serif'],

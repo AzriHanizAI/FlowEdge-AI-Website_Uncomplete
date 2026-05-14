@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="container mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
-            <h3 className="text-2xl font-bold mb-4">BruNex AI</h3>
+            <h3 className="text-2xl font-bold mb-4">FlowEdge AI</h3>
             <p className="text-gray-400">
               Transforming businesses through intelligent automation solutions.
             </p>
@@ -22,7 +22,7 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-semibold mb-4">Contact</h4>
             <ul className="space-y-2 text-gray-400">
-              <li>contact@brunex.ai</li>
+              <li>contact@flowedge.ai</li>
               <li>+673 233 5923</li>
               <li>123 AI Street, Tech City</li>
             </ul>
@@ -38,7 +38,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-          <p>&copy; {new Date().getFullYear()} BruNex AI. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} FlowEdge AI. All rights reserved.</p>
         </div>
       </div>
     </footer>

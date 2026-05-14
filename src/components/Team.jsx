@@ -14,18 +14,6 @@ const Team = () => {
       role: 'CEO & Founder',
       description: 'Visionary leader with expertise in AI strategy and business transformation.',
       image: '/images/ceo.jpg'
-    },
-    {
-      name: 'Jiku',
-      role: 'CFO & Co-Founder',
-      description: 'Financial expert ensuring sustainable growth and operational efficiency.',
-      image: '/images/jiku.jpg'
-    },
-    {
-      name: 'Mr. Hempas',
-      role: 'CTO & Co-Founder',
-      description: 'Technology innovator driving cutting-edge AI automation solutions and digital transformation for growth and efficiency.',
-      image: '/images/mr_hempas.jpg'
     }
   ];
 
@@ -41,30 +29,43 @@ const Team = () => {
         >
           <h2 className="text-4xl font-bold text-gray-800 mb-4">Our Team</h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            Meet the minds behind BruNex AI - combining expertise in AI, Finance, and technology.
+            Meet the minds behind FlowEdge AI.
           </p>
         </motion.div>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+<div className="flex justify-center">
   {team.map((member, index) => (
     <motion.div
-    key={index}
-    initial={{ opacity: 0, y: 20 }}
-    animate={inView ? { opacity: 1, y: 0 } : {}}
-    transition={{ duration: 0.8, delay: index * 0.2 }}
-    className="bg-white p-8 rounded-lg shadow-lg text-center flex flex-col items-center"
-  >
-    <div className="w-32 h-32 mb-6">
-      <img
-        src={member.image}
-        alt={member.name}
-        className="w-full h-full rounded-full object-cover"
-        style={{ objectPosition: 'center top' }} // Adjust the image's visible part
-      />
-    </div>
-    <h3 className="text-xl font-bold text-gray-800 mb-2">{member.name}</h3>
-    <p className="text-blue-600 mb-4">{member.role}</p>
-    <p className="text-gray-600">{member.description}</p>
-  </motion.div>
+      key={index}
+      initial={{ opacity: 0, y: 20 }}
+      animate={inView ? { opacity: 1, y: 0 } : {}}
+      transition={{ duration: 0.8, delay: index * 0.2 }}
+      className="bg-white p-8 rounded-lg shadow-lg w-full max-w-md flex flex-col items-center text-center"
+    >
+      {/* Profile Image */}
+      <div className="w-32 h-32 mb-6 flex justify-center">
+        <img
+          src={member.image}
+          alt={member.name}
+          className="w-full h-full rounded-full object-cover"
+          style={{ objectPosition: 'center top' }}
+        />
+      </div>
+
+      {/* Name */}
+      <h3 className="text-2xl font-bold text-gray-800 mb-2">
+        {member.name}
+      </h3>
+
+      {/* Role */}
+      <p className="text-blue-600 font-medium mb-4">
+        {member.role}
+      </p>
+
+      {/* Description */}
+      <p className="text-gray-600 leading-relaxed max-w-sm">
+        {member.description}
+      </p>
+    </motion.div>
   ))}
 </div>
       </div>
