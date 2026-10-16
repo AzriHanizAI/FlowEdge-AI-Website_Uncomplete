@@ -23,7 +23,7 @@ const Footer = () => {
             <h4 className="text-lg font-semibold mb-4">Contact</h4>
             <ul className="space-y-2 text-gray-400">
               <li>contact@flowedge.ai</li>
-              <li>+673 233 5923</li>
+              <li>+673 233 5921</li>
               <li>123 AI Street, Tech City</li>
             </ul>
           </div>
